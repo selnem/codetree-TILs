@@ -3,7 +3,7 @@
 int main() {
     int m,n,x,y;
     scanf("%d %d",&n,&m);
-    int arr[4*n+4][4*m+4];
+    int arr[50][50];
     for (int i=0;i<m;i++){
         scanf("%d %d",&x,&y);
         arr[x][y]=x*y;
